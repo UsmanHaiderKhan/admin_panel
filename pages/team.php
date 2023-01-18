@@ -29,7 +29,7 @@
  <div class="container">
   <h3 class="i-name">Our Team</h3>
   <div class="mt-2">
-    <a href="./addmember.php" class="btn btn-success btn-lg">Add New Member</a>
+    <a href="../addmember.php" class="btn btn-success btn-lg">Add New Member</a>
   </div>
  <div class="col-lg-12">
  <br>
@@ -68,7 +68,7 @@
  <td> <?php echo $res['linkedin'];  ?> </td>
  <td> <?php echo $res['facebook'];  ?> </td>
  <td> <button class="btn-danger btn"> <a href="delete.php?id=<?php echo $res['id']; ?>" class="text-white"> Delete </a>  </button> </td>
- <td> <button class="btn-primary btn"> <a href="update.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td>
+ <td> <button class="btn-primary btn"> <a href="../update/teams.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td>
 
  </tr>
 

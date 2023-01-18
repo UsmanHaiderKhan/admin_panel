@@ -62,7 +62,7 @@
  <td> <?php echo $res['heading'];  ?> </td>
  <td> <?php echo $res['description'];  ?> </td>
  <td> <button class="btn-danger btn"> <a href="delete.php?id=<?php echo $res['id']; ?>" class="text-white"> Delete </a>  </button> </td>
- <td> <button class="btn-primary btn"> <a href="update.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td>
+ <td> <button class="btn-primary btn"> <a href="../update/update.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td>
 
  </tr>
 

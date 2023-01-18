@@ -57,13 +57,13 @@
  ?>
  <tr class="text-center">
   <td> <?php echo $res['id'];  ?> </td>
-  <td> <img src="<?php echo $res['about_img'];  ?>" alt=""> </td>
+  <td> <img src="<?php echo $res['about_img'];  ?>" class="testimonial-logo" alt=""> </td>
   <td> <?php echo $res['heading'];  ?> </td>
   <td> <?php echo $res['description'];  ?> </td>
   <td> <?php echo $res['para_heading'];  ?> </td>
   <td> <?php echo $res['paragraph'];  ?> </td>
 
- <td> <button class="btn-primary btn"> <a href="changeinfo.php?id=<?php echo $res['id']; ?>" class="text-white"> Edit </a> </button> </td>
+ <td> <button class="btn-primary btn"> <a href="../update/changeinfo.php?id=<?php echo $res['id']; ?>" class="text-white"> Edit </a> </button> </td>
 
  </tr>
 

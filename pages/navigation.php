@@ -22,7 +22,7 @@
 
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i>&nbsp; User Detail</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out-alt"></i>&nbsp; Logout</a></li>
+            <li><a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out-alt"></i>&nbsp; Logout</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
           </div>

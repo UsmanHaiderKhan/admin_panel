@@ -29,7 +29,7 @@
  <div class="container">
   <h3 class="i-name">Portfolio</h3>
   <div class="mt-2">
-    <a href="./addportfolio.php" class="btn btn-success btn-lg">Add New Portfolio</a>
+    <a href="../addportfolio.php" class="btn btn-success btn-lg">Add New Portfolio</a>
   </div>
  <div class="col-lg-12">
  <br>
@@ -64,7 +64,7 @@
  <td> <?php echo $res['link'];  ?> </td>
  <td> <?php echo $res['big_description'];  ?> </td>
  <td> <button class="btn-danger btn"> <a href="delete.php?id=<?php echo $res['id']; ?>" class="text-white"> Delete </a>  </button> </td>
- <td> <button class="btn-primary btn"> <a href="update.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td>
+ <td> <button class="btn-primary btn"> <a href="../update/port.php?id=<?php echo $res['id']; ?>" class="text-white"> Update </a> </button> </td>
 
  </tr>
 
